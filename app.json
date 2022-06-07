@@ -31,9 +31,6 @@
         "BOT_TOKEN": {
             "description": "Get this value from @BotFather"
         },
-        "SESSION_NAME": {
-            "description": "Get this value from @BotFather"
-        },
         "BIN_CHANNEL": {
             "description": "The BIN Channel ID. Read the readme for more info about this var"
         },
