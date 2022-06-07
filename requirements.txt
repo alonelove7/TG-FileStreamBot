@@ -6,3 +6,5 @@ motor
 aiofiles
 requests
 pyromod
+apscheduler
+psutil
