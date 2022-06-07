@@ -1,19 +1,16 @@
-# This file is a part of TG-FileStreamBot
-
-
-from ..vars import Var
+# (c) adarsh-goel
 from pyrogram import Client
+import pyromod.listen
+from ..vars import Var
 from os import getcwd
 
 StreamBot = Client(
-    name="WebStreamer",
+    session_name='Web Streamer',
     api_id=Var.API_ID,
     api_hash=Var.API_HASH,
-    workdir="WebStreamer",
-    plugins={"root": "WebStreamer/bot/plugins"},
     bot_token=Var.BOT_TOKEN,
     sleep_threshold=Var.SLEEP_THRESHOLD,
-    workers=Var.WORKERS,
+    workers=Var.WORKERS
 )
 
 multi_clients = {}
