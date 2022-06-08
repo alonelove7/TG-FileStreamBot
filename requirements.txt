@@ -1,7 +1,7 @@
 aiohttp
 pyrogram>=2.0.17
-python-dotenv<=0.20.0
-tgcrypto<=1.2.3
+python-dotenv
+tgcrypto
 motor
 aiofiles
 requests
